@@ -1,0 +1,6 @@
+framework module Pods_Effective_Swift_AppTests {
+  umbrella header "Pods-Effective Swift AppTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
