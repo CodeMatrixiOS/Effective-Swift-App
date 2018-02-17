@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A668E8620383FFE00CE6A4F /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A668E8520383FFE00CE6A4F /* DetailsViewController.swift */; };
 		0A67E18E2034A1B3001BF55A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A67E18D2034A1B3001BF55A /* AppDelegate.swift */; };
 		0A67E1902034A1B3001BF55A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A67E18F2034A1B3001BF55A /* ViewController.swift */; };
 		0A67E1932034A1B3001BF55A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A67E1912034A1B3001BF55A /* Main.storyboard */; };
@@ -44,6 +45,7 @@
 
 /* Begin PBXFileReference section */
 		088E65B2D93F95D551425D95 /* Pods_Effective_Swift_AppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Effective_Swift_AppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A668E8520383FFE00CE6A4F /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 		0A67E18A2034A1B3001BF55A /* Effective Swift App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Effective Swift App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A67E18D2034A1B3001BF55A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0A67E18F2034A1B3001BF55A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -171,6 +173,7 @@
 			isa = PBXGroup;
 			children = (
 				0A67E18F2034A1B3001BF55A /* ViewController.swift */,
+				0A668E8520383FFE00CE6A4F /* DetailsViewController.swift */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -522,6 +525,7 @@
 			files = (
 				0AB471D92037E6680055C6D6 /* MovieService.swift in Sources */,
 				0AB471D72037DF260055C6D6 /* Movie.swift in Sources */,
+				0A668E8620383FFE00CE6A4F /* DetailsViewController.swift in Sources */,
 				0A67E1902034A1B3001BF55A /* ViewController.swift in Sources */,
 				0A67E18E2034A1B3001BF55A /* AppDelegate.swift in Sources */,
 				0AF2766020371C3C006A1B3D /* MovieEndpoints.swift in Sources */,
