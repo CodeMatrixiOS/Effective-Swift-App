@@ -10,5 +10,6 @@ import Foundation
 struct AppConstants {
     static let BASE_URL: String = "https://api.themoviedb.org/3/movie/"
     static let API_KEY: String = "060fe300cc5a08ba0515ed2dd96af98f"
+    static let BASE_IMAGE_URL = "https://image.tmdb.org/t/p/w185"
 }
 

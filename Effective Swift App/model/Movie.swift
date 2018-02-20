@@ -7,6 +7,7 @@
 //
 
 import Foundation
+
 struct Movies: Codable {
     let results: [Result]
     let page, totalResults: Int
@@ -56,6 +57,7 @@ struct Result: Codable {
 
 enum OriginalLanguage: String, Codable {
     case en = "en"
+    case es = "es"
 }
 
 // MARK: Convenience initializers
@@ -140,5 +142,3 @@ extension Result {
         return String(data: data, encoding: .utf8)
     }
 }
-
-
